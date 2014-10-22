@@ -4,6 +4,7 @@ var margin = 10;
 var spaceLeft = 0;
 var windowWidth = 0;
 var blocks = [];
+var spaceTop = 60;
 
 $(function() {
     $(window).resize(setupBlocks);
@@ -31,7 +32,7 @@ function positionBlocks() {
         var leftPos = margin + (index * (colWidth + margin));
         $(this).css({
             'left': (leftPos + spaceLeft) + 'px',
-            'top': min + 'px'
+            'top': (min + spaceTop) + 'px'
         });
         blocks[index] = min + $(this).outerHeight() + margin;
     });

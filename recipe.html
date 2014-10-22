@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title></title>
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Cambo' rel='stylesheet' type='text/css'>
     
         <script src="http://code.jquery.com/jquery-latest.js"></script>
@@ -13,71 +14,120 @@
     </head>
     <body onload="setupBlocks();">
 
-    <div class="block">
-        <img src="images/qinjiaoxingbaogu.jpg">
-        <h3>青椒炒杏鲍菇</h3>
-
-        <p>青椒，杏鲍菇</p>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">DreamFridge</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Breakfast</a></li>
+        <li><a href="#">Lunch/Dinner</a></li>
+        
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+     
+    </div><!-- /.navbar-collapse -->
+      </div>
     </div>
 
     <div class="block">
-        <img src="images/xiarenlusun.jpg">
+        <img src="http://i3.xiachufang.com/image/620/828d3198ff6e11e39919b8ca3aeed2d7.jpg">
         <h3>虾仁芦笋</h3>
         <p>虾仁牵手芦笋，简单的家常菜，不简单的味道！</p>
-        <ul class="tags">
-            <li><a href="#">虾仁</a></li>
-            <li><a href="#">芦笋</a></li>
-        </ul>
+        <a class="tags">虾仁</a>
+        <a class="tags">芦笋</a>
+    </div>
+
+    <div class="block">
+        <img src="http://i4.xiachufang.com/image/620/bfe4fb18012411e4933ce0db5512b208.jpg">
+        <h3>蜜汁鸡翅</h3>
+        <p>这款无论大人小孩必点菜之一啦，味微甜，可提前腌制更入味</p>
+        <a class="tags">鸡翅</a>
+        <a class="tags">蜂蜜</a>
+    </div>
+
+    <div class="block">
+        <img src="images/qinjiaoxingbaogu.jpg">
+        <h3>青椒炒杏鲍菇</h3>
+        <p>食材简单，适合上班族的快手菜</p>
+        <a class="tags">青椒</a>
+        <a class="tags">杏鲍菇</a>
+    </div>
+
+    <div class="block">
+        <img src="http://i4.xiachufang.com/image/620/83b5b7dc9f3f11e3b4a6e0db5512b209.jpg">
+        <h3>五香煎豆腐</h3>
+        <p>豆腐入百味，如果你是一个新晋主妇，那么就学学这道菜吧，上手容易，味道浓郁，是白饭的绝搭哦。</p>
+        <a class="tags">豆腐</a>
     </div>
 
     <div class="block">
         <img src="images/tangshengcai.jpg">
         <h3>烫生菜</h3>
+        <a class="tags">生菜</a>
+        <a class="tags">芦笋</a>
     </div>
 
     <div class="block">
         <img src="images/dunjifan.jpg">
         <h3>电饭煲焗鸡饭</h3>
+        <a class="tags">鸡</a>
     </div>
 
     <div class="block">
-        <img src="images/huluobomuerchaodan.jpg">
+        <img src="http://i3.xiachufang.com/image/620/16766b9a15f911e4a4ece0db5512b208.jpg">
         <h3>胡萝卜木耳炒蛋</h3>
+        <a class="tags">胡萝卜</a>
+        <a class="tags">木耳</a>
+        <a class="tags">鸡蛋</a>
     </div>
 
     <div class="block">
-        <img src="images/xilanhuasuchao.jpg">
+        <img src="http://i3.xiachufang.com/image/620/1dadaae4081711e49919b8ca3aeed2d7.jpg">
         <h3>西兰花素炒</h3>
+        <a class="tags">西兰花</a>
+        <a class="tags">木耳</a>
+        <a class="tags">胡萝卜</a>
     </div>
 
     <div class="block">
-        <h3></h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in dui velit. Curabitur purus odio, adipiscing ut vehicula at, pulvinar eu justo. Suspendisse potenti. Suspendisse dictum massa non mi posuere ac convallis nisi pellentesque. Morbi posuere mauris elementum metus interdum vestibulum. Vestibulum semper, lectus interdum aliquet pulvinar, quam libero commodo mi, a eleifend lectus nibh et tortor.</p>
+        <img src="http://i1.xiachufang.com/image/620/d4e40d6cb3ed11e3841cb8ca3aeed2d7.jpg">
+        <h3>韩式拌饭</h3>
+        <p>最家常的韩式拌饭，韩剧里很高的出镜率，每次看到都会被吊起胃口...</p>
+        <a class="tags">菠菜</a>
+        <a class="tags">鸡蛋</a>
+        <a class="tags">胡萝卜</a>
+        <a class="tags">莴苣</a>
+        <a class="tags">黑芝麻</a>
+        <a class="tags">黄瓜</a>
+        <a class="tags">火腿肠</a>
     </div>
 
     <div class="block">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in dui velit. Curabitur purus odio, adipiscing ut vehicula at, pulvinar eu elementum metus interdum vestibulum. Vestibulum semper, lectus interdum aliquet pulvinar, quam libero commodo mi, a eleifend lectus nibh et tortor.</p>
-    </div>
-
-    <div class="block">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in dui velit. Curabitur purus odio, adipiscing ut vehicula at, pulvinar eu justo. ecenas fringilla faucibus adipiscing. In feugiat, ipsum non posuere aliquam, purus nisi feugiat metus, mattis dapibus ipsum justo at risus. Morbi leo mauris, tristique facilisis consequat quis, volutpat quis tellus. Quisque semper, urna nec egestas venenatis, urna sem pellentesque ante, quis vestibulum augue massa vel arcu. Suspendisse porttitor posuere viverra. Cras vel ligula nunc, vitae congue lorem. Etiam aliquet nisl et diam iaculis id vulputate urna lobornibh et tortor.</p>
-    </div>
-
-    <div class="block">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in dui velit. Curabitur purus odio, adipiscing ut vehicula at, pulvinar eu justo. Suspendisse potenti. Suspendisse dictum massa non mi posuere ac convallis nisi pellentesque. Morbi posuere mauris elementum metus interdum vestibulum. Vestibulum semper, lectus interdum aliquet pulvinar, quam libero commodo mi, a eleifend lectus nibh et tortor.</p>
+        <img src="http://i2.xiachufang.com/image/620/4fb22adc08a911e49919b8ca3aeed2d7.jpg">
+        <h3>清蒸鲈鱼</h3>
+        <p>超入味的清蒸鱼，健康美味</p>
+        <a class="tags">鲈鱼</a>
     </div>
 
 
     <div class="block">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in dui velit. Curabitur purus odio, adipiscing ut vehicula at, pulvinar eu justVestibulum id malesuada magna. Etiam vel nunc sapien, id consectetur lacus. Donec feugiat lacus non lorem varius accumsan hendrerit ligula luctus. Matis. In lobortis, urna et posuere sagittis, lectus lacus condimentum nulla, id euismod ipsum elit at nulla.ris elementum metus interdum vestibulum. Vestibulum semper, lectus interdum aliquet pulvinar, quam libero commodo mi, a eleifend lectus nibh et tortor.</p>
-    </div>
-
-    <div class="block">
-        <p>Lorem ipsum dolor sit amet, cto. Suspendisse potenti. Suspendisse dictum massa non mi posuere ac convallis nisi pellentesque. Morbi posuere mauris elementum metus is nibh et tortor.</p>
-    </div>
-
-    <div class="block">
-        <p>er lectus, at pellentesque tortor luctus eget. Phasellus cursus tellus sed velit mattis feugiat. Phasellus non metus felis, dictum auctor justo. Sed pharetra malesuada accumsan. Nunc eget nisi libero, quis egestas eros. Duis sit amet fermentum dui. Nulla ullamcorper massa sit amet magna pulvinar volutpat. Mauris dictum congue mi eu molestie.</p>
+        <img src="http://i2.xiachufang.com/image/620/fe70a2b49ec911e38844b8ca3aeed2d7.jpg">
+        <h3>麻婆豆腐</h3>
+        <p>最下饭的传统川菜</p>
+        <a class="tags">豆腐</a>
     </div>
     
 </body>
