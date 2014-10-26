@@ -1,5 +1,5 @@
 var colCount = 0;
-var colWidth = 300;
+var colWidth = 250;
 var margin = 10;
 var spaceLeft = 0;
 var windowWidth = 0;
@@ -210,6 +210,8 @@ $( document ).ready(function() {
             $("<a />", { "class":"close"}).appendTo('body');
 
         }
+
+
         
     });
 
